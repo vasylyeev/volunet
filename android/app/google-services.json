@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "184730666305",
+    "project_id": "volunet-f89cb",
+    "storage_bucket": "volunet-f89cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184730666305:android:fad4d836b675a1a96e0dc0",
+        "android_client_info": {
+          "package_name": "com.example.volunet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184730666305-ecldutgeh491ohbo82sc95e9go3vjgrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK3CvcD1ZSwUIgUjbMlJPs8m0nGZtQjqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184730666305-ecldutgeh491ohbo82sc95e9go3vjgrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

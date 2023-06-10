@@ -1,0 +1,55 @@
+@startuml
+set namespaceSeparator ::
+
+class "models::post.Post" {
+}
+
+class "models::user.User" {
+}
+
+class "providers::posts_provider.PostsProvider" {
+}
+
+class "providers::user_provider.UserProvider" {
+}
+
+"providers::user_provider.UserProvider" o-- "models::user.User"
+"providers::user_provider.UserProvider" o-- "resources::auth_methods.AuthMethods"
+"change_notifier.ChangeNotifier" <|-- "providers::user_provider.UserProvider"
+
+class "resources::auth_methods.AuthMethods" {
+}
+
+class "resources::posts_methods.PostsMethods" {
+}
+
+class "resources::storage_methods.StorageMethods" {
+}
+
+
+class "resources::users_methods.UsersMethods" {
+}
+
+class "screens::home_screen.HomeScreen" {
+}
+
+class "screens::post_screen.PostScreen" {
+}
+
+"screens::post_screen.PostScreen" o-- "models::post.Post"
+
+class "screens::registration_screen.Role" {
+}
+
+"screens::registration_screen.Role" o-- "screens::registration_screen.Role"
+"Enum" <|-- "screens::registration_screen.Role"
+
+class "category_chooser.CategoryChooser" {
+}
+
+class "widgets::post_card.PostCard" {
+}
+
+"widgets::post_card.PostCard" o-- "models::post.Post"
+
+@enduml
