@@ -18,5 +18,6 @@ Using this app you can:
  2. Edit your credentials;
  3. Add/delete/edit posts;
 
-![App UI](https://github.com/vasylyeev/volunet/assets/71003593/a1dea236-f12a-4606-b860-1e1f3b03c633)
+![App UI](https://github.com/vasylyeev/volunet/assets/71003593/12635dc6-4156-47be-b8af-e4ae8b7c39bc)
+
 
